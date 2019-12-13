@@ -14,7 +14,7 @@ const Header = () =>{
 	                offset={-70}
 	                duration={500}
 	              >
-				<img src={process.env.PUBLIC_URL + 'img/logo.png'} alt="logo"/>
+				<img src={process.env.PUBLIC_URL + '/img/logo.png'} alt="logo"/>
 			</Link>
 			<div className='header-links'>
 				<div>
