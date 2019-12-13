@@ -541,7 +541,7 @@ class Content extends React.Component{
 			<div className='Content'>
 				<h1>Оформити позов</h1>
 				<form onSubmit = {(event)=>this.Show(event)}>
-					{/*<TransitionGroup className='qa'>
+					<TransitionGroup className='qa'>
 	                    {
 	                    	this.state.chosed.map((item, i) => (
 	                    		<CSSTransition 
@@ -556,7 +556,7 @@ class Content extends React.Component{
 					        ))
 	                    }
 	                </TransitionGroup>
-	               <Form2 chosed={this.state.chosed2} handleSecondForm={this.handleSecondForm}/>*/}
+	               <Form2 chosed={this.state.chosed2} handleSecondForm={this.handleSecondForm}/>
 	               <Form3 data={this.state.chosed3} handleThirdForm={this.handleThirdForm}/>
 	               <button>Send</button>	
                </form>
